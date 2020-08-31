@@ -1,1 +1,7 @@
-
+pipelines:
+  default: 
+    - step:
+        name : package
+        trigger: automatic
+        script: 
+        - echo 123
