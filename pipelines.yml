@@ -5,4 +5,5 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - ''
+            - '            curl -k -u ${ZEROBUGUID}:${ZEROBUGTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"131\",\"targetid\":\"kFfIsDkluT8jXUXUwOnK1598895194\",\"ci\":\"JFRog\",\"tipo\":\"12\"}" https://zerobug.co/ScanTarget/
+'
