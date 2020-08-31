@@ -1,7 +1,7 @@
 pipelines: 
-  - name: basic_pipeline
+  - name: zerobug
     steps:
-      - name: step_1
+      - name: curl
         type: Bash
         execution:
           onExecute:
