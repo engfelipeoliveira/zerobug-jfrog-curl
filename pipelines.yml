@@ -1,13 +1,8 @@
 pipelines: 
   - name: basic_pipeline
-    configuration:
-      environmentVariables:
-        readOnly:
-          my_env_var: "hello" 
     steps:
       - name: step_1
         type: Bash
-        configuration:
         execution:
           onExecute:
             - 'curl -H http://google.ca' 
