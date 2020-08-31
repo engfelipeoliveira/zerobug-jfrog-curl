@@ -9,4 +9,4 @@ pipelines:
             ZEROBUGTOKEN: 6d585b2cfcbd52b885617cbc3fd0e270
         execution:
           onExecute:
-            - 'curl -k -u ${ZEROBUGUID}:${ZEROBUGTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"129\",\"targetid\":\"w1t0QaaUa6iP9KEw5xM81598891400\",\"ci\":\"Jenkins\",\"tipo\":\"11\"}" https://zerobug.co/ScanTarget/'
+            - 'curl -k -u ${ZEROBUGUID}:${ZEROBUGTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"129\",\"targetid\":\"w1t0QaaUa6iP9KEw5xM81598891400\",\"ci\":\"Jfrog\",\"tipo\":\"99\"}" https://zerobug.co/ScanTarget/'
