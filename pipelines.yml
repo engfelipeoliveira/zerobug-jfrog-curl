@@ -5,4 +5,4 @@ pipelines:
         type: Bash
         execution:
           onExecute:
-            - 'curl -k -u ${ZEROBUGUID}:${ZEROBUGTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"129\",\"targetid\":\"w1t0QaaUa6iP9KEw5xM81598891400\",\"ci\":\"Jfrog\",\"tipo\":\"99\"}" https://zerobug.co/ScanTarget/'
+            - 'curl -k -u ${ZEROBUGUID}:${ZEROBUGTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"131\",\"targetid\":\"AyIX0lpNwZxAtbwjtRZX1598894821\",\"ci\":\"JFRog\",\"tipo\":\"12\"}" https://zerobug.co/ScanTarget/'
